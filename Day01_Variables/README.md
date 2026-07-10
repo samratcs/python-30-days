@@ -26,3 +26,4 @@
 - Read user input
 - Convert data types
 - Perform string operations
+- solve basic exercise problem
