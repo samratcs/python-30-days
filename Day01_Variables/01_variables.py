@@ -164,4 +164,58 @@ print("-" * 50)
 # Mobile Phone Specifications
 # =====================================================
 
-# Write your solution here
+# Variable stores mobile's brand
+brand = "Samsung"
+# Variable stores mobile's model
+model = "Galaxy Note 4"
+# Variable stores mobile's os
+operating_system = "Android 15"
+# Variable stores mobile's processor
+processor = "Snapdragon Octa Core"
+# Variable stores mobile's ram
+ram = 12
+# Variable stores mobile's storage
+storage = 512
+# Variable stores mobile's display size
+display_size = 6.2
+# Variable stores mobile's battery capacity
+battery_capacity = 5000
+# Variable stores mobile's camera pixel
+camera = 30
+# Variable stores mobile's price
+price = 34999.99
+
+# calculate GST 18%
+gst = price * 0.18
+
+# final price
+final_price = price + gst
+
+# price per gb
+price_per_gb = price / storage
+
+print("="*50)
+print("\t\tMobile Details\t\t")
+print("="*50)
+
+print()
+
+print("Brand                    :", brand)
+print("Model                    :", model)
+print("Operating System         :", operating_system)
+print("Processor                :", processor)
+print("RAM (GB)                 :", ram, "GB")
+print("Storage (GB)             :", storage,"GB")
+print("Display Size             :", display_size, "Inches")
+print("Battery capacity         :", battery_capacity,"mA")
+print("Camera                   :", camera, "MP")
+
+print("-" * 15, "Salary Details", "-" * 15)
+
+print()
+print(f"Price                    : ₹{price}")
+print(f"GST                      : ₹{gst}")
+print(f"Total Salary             : ₹{final_price:.2f}")
+print(f"Price per GB             : ₹{price_per_gb:.2f}")
+
+print("-" * 50)
