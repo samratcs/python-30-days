@@ -123,7 +123,37 @@ print("-" * 50)
 # Swap Two Variables
 # =====================================================
 
-# Write your solution here
+# variables to store first number
+value_1 = 3
+# variables to store second number
+value_2 = 5
+
+# swap with using third variable using variable temp
+print("="*10,"Swap Two Number Using Third Variable","="*10)
+print()
+print("Before Swapping")
+print("Value 1  :", value_1)
+print("Value 2  :", value_2)
+temp = value_1
+value_1 = value_2
+value_2 = temp
+print("After Swapping")
+print("Value 1  :", value_1)
+print("Value 2  :", value_2)
+
+# swap with out using third variable
+print("="*10,"Swap Two Number With out Using Third Variable","="*10)
+print()
+print("Before Swapping")
+print("Value 1  :", value_1)
+print("Value 2  :", value_2)
+# logic for swapping
+value_1 = value_1 + value_2
+value_2 = value_1 - value_2
+value_1 = value_1 - value_2
+print("After Swapping")
+print("Value 1  :", value_1)
+print("Value 2  :", value_2)
 
 
 print("-" * 50)
