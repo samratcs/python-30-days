@@ -7,6 +7,10 @@ Display it
 Count the number of lines
 """
 
+print("="*30)
+print("File Handling -- Read File".center(10))
+print("="*30)
+
 with open("sample.txt", "r") as file:
     content = file.read()
     print(content)
@@ -16,3 +20,4 @@ with open("sample.txt", "r") as file:
     print("No of Words:",word_count)
     char_count = len(content)
     print("No of Characters: ",char_count)
+    file.close()
