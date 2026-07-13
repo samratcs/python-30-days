@@ -94,3 +94,48 @@ print(type(student_info))
 print()
 
 print("-"*50)
+
+
+# =====================================================
+# Question 2
+# Library Book Information
+# =====================================================
+
+print("="*15,"Library Book Information", "="*15)
+
+print()
+
+print("-"*15,"Using Normal Variables","-"*15)
+
+# Storing the data
+book_name = "To Kill a Mockingbird"
+author = "Harper Lee"
+price = 14.99
+number_of_pages = 281
+available = True
+
+# Printing value and data type
+print("Value:", book_name, "| Type:", type(book_name))
+print("Value:", author, "   | Type:", type(author))
+print("Value:", price, "    | Type:", type(price))
+print("Value:", number_of_pages, "  | Type:", type(number_of_pages))
+print("Value:", available, " | Type:", type(available))
+
+
+print()
+print("-"*15,"Using Dictionary","-"*15)
+
+# Storing the data in a dictionary
+book = {
+    "Book Name": "To Kill a Mockingbird",
+    "Author": "Harper Lee",
+    "Price": 14.99,
+    "Number of Pages": 281,
+    "Available": True
+}
+
+# Printing the value and data type using a loop
+for key, value in book.items():
+    print(f"{key} -> Value: {value} | Type: {type(value)}")
+
+print("-"*50)
