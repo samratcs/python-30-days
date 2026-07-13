@@ -178,3 +178,42 @@ for key, value in employees.items():
 print()
 
 print("-"*50)
+
+
+# =====================================================
+# Question 5
+# Personal Portfolio Data
+# =====================================================
+
+print("="*15,"Personal Portfolio Data", "="*15)
+
+print()
+
+portfolio = {
+    "name": "Samrat Sur",
+    "profession": "System Engineer",
+    "experience": 6,
+    "expected_salary":1200000,
+    "open_to_work": True,
+    "technical_skills": ["Python","Core Java","SQL", "APIGEE GCP"],
+    "certifications":("Oracle OCI AI Certification","Google Python Crash Course"),
+    "tools_known":{"VS Code","Git","Postman","PyCharm", "IntelliJ Idea"},
+    "social_links":{
+        "github":"http://github.com/samratsur",
+        "linkedin":"https://www.linkedin.com/samrat-sur"
+    }
+}
+
+print("Name              :", portfolio["name"])
+print("Profession        :", portfolio["profession"])
+print("Experience        :", portfolio["experience"], "Years")
+print("Expected Salary   :", portfolio["expected_salary"])
+print("Open To Work      :", portfolio["open_to_work"])
+print("Technical Skills  :", portfolio["technical_skills"])
+print("Certifications    :", portfolio["certifications"])
+print("Tools Known       :", portfolio["tools_known"])
+print("Social Links      :", portfolio["social_links"])
+
+print()
+
+print("-"*50)
