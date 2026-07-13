@@ -97,7 +97,7 @@ print("-"*50)
 
 
 # =====================================================
-# Question 2
+# Question 3
 # Library Book Information
 # =====================================================
 
@@ -137,5 +137,44 @@ book = {
 # Printing the value and data type using a loop
 for key, value in book.items():
     print(f"{key} -> Value: {value} | Type: {type(value)}")
+
+print("-"*50)
+print()
+
+# =====================================================
+# Question 4
+# Company Employee Records
+# =====================================================
+
+print("="*15,"Company Employee Records", "="*15)
+
+print()
+
+# Storing the data in a dictionary
+employees = {
+    "EMP_001":{
+        "name": "Samrat Sur",
+        "department": "IT",
+        "salary": 42000
+    },
+    "EMP_002":{
+        "name": "Debayan Banerjee",
+        "department": "HR",
+        "salary": 35000
+    },
+    "EMP_003":{
+        "name": "Amiya Banerjee",
+        "department": "Security",
+        "salary": 20000
+    }
+}
+
+# Printing the value and data type using a loop
+for key, value in employees.items():
+    for k,v in value.items():
+        print(f"{k} -> Value: {v} | Type: {type(v)}")
+    print()
+
+print()
 
 print("-"*50)
