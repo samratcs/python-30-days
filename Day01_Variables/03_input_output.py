@@ -3,7 +3,7 @@
 # Student Registration Form
 # =====================================================
 
-print("="*15,"Personal Portfolio Data", "="*15)
+print("="*15,"Student Registration Form", "="*15)
 
 print()
 
@@ -21,3 +21,17 @@ Course = input("Enter Student Course")
 print()
 
 print("-"*50)
+
+# =====================================================
+# Question 2
+# Employee Salary Calculator
+# =====================================================
+
+print("="*15,"Employee Salary Calculator", "="*15)
+
+print()
+
+print()
+
+print("-"*50)
+
