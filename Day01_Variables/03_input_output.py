@@ -124,4 +124,56 @@ print(f"Final Balance after Withdrawal          : {Current_Balance:,.2f}")
 print("-"*50)
 
 
+# =====================================================
+# Question 5
+# Developer Portfolio Application
+# =====================================================
+
+print("="*15,"Developer Portfolio Builder", "="*15)
+
+print()
+
+# Personal Details 
+Full_Name = input("Enter Full Name: ")
+Email = input("Enter Email: ")
+Phone_Number = input("Enter Your Phone Number: ") 
+City = input("Enter Your City: ")
+
+#Professional Details
+Current_Company = input("Enter Your Current Company Name: ")
+Designation = input("Enter Your Current Designation: ")
+Years_of_Experience = int(input("Enter Your Total Years of Experience: "))
+Expected_Salary = int(input("Enter Your Expected Salary: "))
+
+# Technical Skills
+skill_1 = input("Enter Your First Skill: ")
+skill_2 = input("Enter Your Second Skill: ")
+skill_3 = input("Enter Your Third Skill: ")
+
+print("="*15,"Your Portfolio", "="*15)
+
+print()
+
+print("-"*10,"Basic Details","-"*10)
+print("Name                     :",Full_Name)
+print("Email                    :",Email)
+print("Phone Number             :",Phone_Number)
+print("City                     :",City)
+
+print()
+
+print("-"*10,"Professional Details","-"*10)
+
+print("Current Company          :", Current_Company)
+print("Designation              :", Designation)
+print("Years of Experience      :", Years_of_Experience)
+print("Expected Salary          :", Expected_Salary)
+
+print("-"*10,"Skills","-"*10)
+
+print("1.", skill_1)
+print("2.", skill_2)
+print("3.", skill_3)
+
+print("-"*50)
 
