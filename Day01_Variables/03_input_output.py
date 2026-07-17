@@ -93,4 +93,35 @@ print(f"Final Bill                           :₹{Final_Bill:,.2f}")
 
 print()
 
+print("-"*50,end="\n\n")
+
+# =====================================================
+# Question 4
+# Banking Application
+# =====================================================
+
+print("="*15,"Banking Application", "="*15)
+Customer_Name = input("Enter Customer Name: ")
+Account_Number = input("Enter Account Number: ")
+Current_Balance = float(input("Enter Current Balance "))
+Deposit_Amount = float(input("Enter Deposit Amount: "))
+Withdraw_Amount = float(input("Enter Withdraw Amount: "))
+
+# Calculation
 print("-"*50)
+
+print("="*15,"Account Information", "="*15)
+
+print()
+
+print("Customer Name                            :",Customer_Name)
+print("Account Number                           :",Account_Number)
+Current_Balance += Deposit_Amount
+print(f"Balance after Deposit                   : {Current_Balance:,.2f}")
+Current_Balance -= Withdraw_Amount
+print(f"Final Balance after Withdrawal          : {Current_Balance:,.2f}")
+
+print("-"*50)
+
+
+
