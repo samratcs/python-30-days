@@ -106,3 +106,30 @@ print(f"Final Salary                     : {Total_Salary:,.2f}")
 print()
 
 print("-"*50)
+
+# =====================================================
+# Question 4
+# Temperature Converter
+# =====================================================
+
+print("="*15,"Temperature Converter", "="*15)
+
+print()
+
+# Take input for:
+
+Temp_Celcius = input("Enter Temperature in Celcius: ")
+
+# Convert the Temperature into Kelvin and Farenheit.
+Temp_Celcius = float(Temp_Celcius)
+Temp_Kelvin = Temp_Celcius + 273.15
+Temp_Farenheit = ((9.0 * Temp_Celcius) / 5.0) + 32.0
+
+# Display the report.
+print(f"Temperature in Celcius                  : {Temp_Celcius:.2f}")
+print(f"Temperature in Kelvin                   : {Temp_Kelvin:.2f}")
+print(f"Temperature in Farenheit                : {Temp_Farenheit:.2f}")
+
+print()
+
+print("-"*50)
