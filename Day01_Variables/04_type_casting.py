@@ -133,3 +133,38 @@ print(f"Temperature in Farenheit                : {Temp_Farenheit:.2f}")
 print()
 
 print("-"*50)
+
+
+# =====================================================
+# Question 5
+# Bank Account Summary
+# =====================================================
+
+print("="*15,"Bank Account Summary", "="*15)
+
+print()
+
+# Take input for:
+
+Customer_Name = input("Enter Customer Name: ")
+Current_Balance = float(input("Enter Current Balance "))
+Deposit_Amount = float(input("Enter Deposit Amount: "))
+Withdraw_Amount = float(input("Enter Withdraw Amount: "))
+
+
+# Calculation
+print("-"*50)
+
+print("="*15,"Bank Account Summary","="*15)
+print()
+
+print("Customer Name                                :",Customer_Name)
+print(f"Current Balance                             : {Current_Balance:,.2f}")
+Current_Balance += Deposit_Amount
+print(f"Balance after Deposit                       : {Current_Balance:,.2f}")
+Current_Balance -= Withdraw_Amount
+print(f"Final Balance after Withdrawal              : {Current_Balance:,.2f}")
+
+print()
+
+print("-"*50)
