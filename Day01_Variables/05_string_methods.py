@@ -35,3 +35,30 @@ print()
 print("="*15,"Email Validator", "="*15)
 
 print()
+
+ # Ask the user to enter an email address.
+
+EmailID = input("Enter Your Email")
+
+# Convert to lowercase
+EmailId = EmailID.lower()
+
+print(EmailID)
+# Remove extra spaces using strip()
+EmailID = EmailID.strip()
+print(EmailID)
+# Count the number of characters
+l = len(EmailID)
+print(f"length of {EmailID} is {l}")
+# Check whether the email contains "@"
+isValid = "@" in EmailID
+print("@ in Email:",EmailID)
+
+#Check whether it ends with .com
+checkValidity = EmailID.endswith(".com")
+print("'.com' in Email:",checkValidity)
+
+
+print("==================================================")
+
+print()
