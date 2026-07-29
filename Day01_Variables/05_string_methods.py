@@ -62,3 +62,38 @@ print("'.com' in Email:",checkValidity)
 print("==================================================")
 
 print()
+
+# =====================================================
+# Question 3
+# Company ID Generator
+# =====================================================
+
+print("="*15,"Company ID Generator", "="*15)
+
+print()
+
+# Ask the user to enter:
+
+First_Name = input("Enter Employee First Name")
+Last_Name = input("Enter Employee Last Name")
+Employee_ID = input("Enter Employee ID")
+
+# Generate an Employee Code using string methods.
+
+Employee_Code = First_Name[0:4].upper() + Last_Name[0:4].lower() + Employee_ID
+
+Official_Mail = First_Name.lower() + "."+ Last_Name.lower()+ "@tcs.com"
+
+
+print("First Name           :",First_Name)
+print("Last Name            :",Last_Name)
+print("Employee ID          :",Employee_ID)
+
+print("Employee Code                :",Employee_Code)
+print("Employee Official Mail       :",Official_Mail)
+
+
+
+print("==================================================")
+
+print()
