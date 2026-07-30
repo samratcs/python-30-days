@@ -97,3 +97,28 @@ print("Employee Official Mail       :",Official_Mail)
 print("==================================================")
 
 print()
+
+# =====================================================
+# Question 4
+# Sentence Analyzer
+# =====================================================
+
+print("="*15,"Sentence Analyzer", "="*15)
+
+print()
+
+# Ask the user to enter:
+
+Sentence = input("Enter a Sentence")
+Total_Characters 
+Total_Words
+First_Character
+Last_Character
+Reverse Sentence
+Sentence in Uppercase
+Sentence in Lowercase
+Replace every space with
+
+print("==================================================")
+
+print()
