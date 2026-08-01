@@ -107,17 +107,93 @@ print("="*15,"Sentence Analyzer", "="*15)
 
 print()
 
-# Ask the user to enter:
+# Ask the user to enter sentence:
 
-Sentence = input("Enter a Sentence")
-Total_Characters 
-Total_Words
-First_Character
-Last_Character
-Reverse Sentence
-Sentence in Uppercase
-Sentence in Lowercase
-Replace every space with
+Sentence = input("Enter a Sentence").strip()
+# Total Characters
+Total_Characters = len(Sentence)
+# Total Words
+Total_Words = len(Sentence.split())
+# First Character
+First_Character = Sentence[0]
+# Last Character
+Last_Character = Sentence[-1]
+# Reverse Sentence
+Reverse_Sentence = Sentence[::-1]
+# Uppercase
+Sentence_in_Uppercase = Sentence.upper()
+# Lowercase
+Sentence_in_Lowercase = Sentence.lower()
+# Replace every space with _
+updated = Sentence.replace(" ","_")
+
+# Display Details
+print("Given Sentece            :", Sentence)
+print("Total Characters         :", Total_Characters)
+print("Total Words              :", Total_Words)
+print("First Character          :", First_Character)
+print("Last Character           :", Last_Character)
+print("Uppercase Characters     :", Sentence_in_Uppercase)
+print("Lowercase Characters     :", Sentence_in_Lowercase)
+print("Reversed Sentence        :", Reverse_Sentence)
+
+
+print("==================================================")
+
+print()
+
+
+# =====================================================
+# Question 5
+# Password Strength Analyzer
+# =====================================================
+
+print("="*15,"Password Strength Analyzer", "="*15)
+
+print()
+
+# Ask the user to enter a password.
+password = input("Enter a Password").strip()
+
+print("="*15,"Password Strength Analyzer", "="*15)
+
+# Display:
+
+# password length
+Password_Length = len(password)
+
+# first character
+First_Character = password[0]
+
+#second character
+Last_Character = password[-1]
+
+# # No of digits
+Number_of_Digits = sum(1 if char.isdigit() else 0 for char in password)
+
+# No of uppercase characters
+Number_of_Uppercase_Letters = sum(1 if 65 <= ord(char) <=90 else 0 for char in password)
+
+# No of lowercase characters
+Number_of_Lowercase_Letters = sum(1 if 97 <= ord(char) <=122 else 0 for char in password)
+
+# finding out the no of special characters  
+# another approach is using isalnum()
+Number_of_Special_Characters = sum(1 if (
+        32 <= ord(char) <= 47 or
+        58 <= ord(char) <= 64 or
+        91 <= ord(char) <= 96 or
+        123 <= ord(char) <= 126
+) else 0 for char in password)
+
+# Bonus Challenge
+
+# Check whether the password satisfies:
+
+At_least_8_characters = True if Total_Characters >= 8 else False
+Contains_one_uppercase_letter = True if Number_of_Uppercase_Letters >= 1 else False
+Contains_one_lowercase_letter = True if Number_of_Lowercase_Letters >= 1 else False
+Contains_one_digit = True if Number_of_Special_Characters >= 1 else False
 
 print("==================================================")
 
