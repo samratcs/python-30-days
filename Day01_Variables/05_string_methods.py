@@ -195,6 +195,13 @@ Contains_one_uppercase_letter = True if Number_of_Uppercase_Letters >= 1 else Fa
 Contains_one_lowercase_letter = True if Number_of_Lowercase_Letters >= 1 else False
 Contains_one_digit = True if Number_of_Special_Characters >= 1 else False
 
+
+
+print("Password Length          :",Password_Length)
+print("First Character          :",First_Character)
+print("Last Character           :",Last_Character)
+print("No Of Digits             :",Number_of_Digits)
+
 print("==================================================")
 
 print()
