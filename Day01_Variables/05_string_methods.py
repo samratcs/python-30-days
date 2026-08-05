@@ -197,10 +197,17 @@ Contains_one_digit = True if Number_of_Special_Characters >= 1 else False
 
 
 
-print("Password Length          :",Password_Length)
-print("First Character          :",First_Character)
-print("Last Character           :",Last_Character)
-print("No Of Digits             :",Number_of_Digits)
+print("Password Length                          :",Password_Length)
+print("First Character                          :",First_Character)
+print("Last Character                           :",Last_Character)
+print("No Of Digits                             :",Number_of_Digits)
+print("No Of Uppercase Letters                  :",Number_of_Uppercase_Letters)
+print("No Of Lowercase Letters                  :",Number_of_Lowercase_Letters)
+print("No Of Special Characters                 :",Number_of_Special_Characters)
+print("Atleast 8 Characters                     :",At_least_8_characters)
+print("Contains one Uppercase                   :",Contains_one_uppercase_letter)
+print("Contains one Lowercase                   :",Contains_one_lowercase_letter)
+print("Contains one Digit                       :",Contains_one_digit)
 
 print("==================================================")
 
