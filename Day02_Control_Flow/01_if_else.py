@@ -9,6 +9,7 @@ Output: Positive number
 """
 # ask user for a number
 number = int(input("Enter a Number"))
+# logic using if-else for number classification
 if number > 0:
     print("Number is Positive")
 else:
