@@ -16,6 +16,7 @@ age = int(input("Enter Your age").strip())
 
 print("="*15,"Driving Eligibility","="*15)
 
+# nested if
 if age >= 18:
     hasLicense = True if input("Already have License(Yes/No): ").strip().lower() == "yes" else False
     # hasLicense = input("Already have License(Yes/No): ").strip().lower() == "yes" # this is also valid
