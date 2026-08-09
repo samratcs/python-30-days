@@ -7,6 +7,8 @@ Example:
 Input: 12345
 Output: 54321
 """
+print("="*15,"Reverse using While Loop","="*15)
+
 n = int(input("Enter the value of n to find Reverse").strip())
 temp = n #store the valuer of n in temp
 reverse = 0
