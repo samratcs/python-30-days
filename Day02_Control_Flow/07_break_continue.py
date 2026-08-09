@@ -13,12 +13,12 @@ Expected sequence:
 
 print("="*15,"Print 1 to 100 with condition","="*15)
 
-for i in range(1,100):
+for i in range(1,101):
     if i == 80:
         break
-    elif i % 5 == 0:
+    if i % 5 == 0:
         continue
-    else:
-        print(i,end=", ")
+
+    print(i,end=", ")
 
 print("="*30)
