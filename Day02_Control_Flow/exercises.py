@@ -36,9 +36,9 @@ while status!=True:
     count += 1
     if number > secret:
         print("Guess Too High")
-    if number < secret:
+    elif number < secret:
         print("Guess Too Low")
-    if number == secret:
+    elif number == secret:
         print("Your Guess is Correct")
         print("No of Attempt: - ",count)
         status = True
