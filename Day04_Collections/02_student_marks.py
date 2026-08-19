@@ -54,6 +54,10 @@ print("Total Marks: ",total_marks)
 avg_marks = total_marks / 5
 print("Avg Marks",avg_marks)
 # Add a new subject "computer": 95. 
+
 record["computer"]=95
 
+print(record)
+
 # Display the subject with the highest marks.
+
