@@ -32,6 +32,12 @@ Create a simple menu-driven banking system:
 data={}
 # functions as follows
 
+def deposit():
+    return
+def withdraw():
+    return
+def getBalanc():
+    return
 
 
 # ask user to enter product names to add in the cart
