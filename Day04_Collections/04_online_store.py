@@ -9,3 +9,7 @@ Requirements:
 - Find the cheapest product.
 - Display all unique product categories.
 """
+
+# create a list of products 
+products = []
+

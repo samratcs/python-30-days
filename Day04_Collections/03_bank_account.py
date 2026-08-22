@@ -124,5 +124,3 @@ while True:
         case 5:exit(0)
         case _:print("Invalid Option")
 
-
-print("="*30)
