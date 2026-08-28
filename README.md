@@ -29,7 +29,7 @@ Day05 - File Handling
 | Day | Topic | Status |
 |-----|------|--------|
 | 1 | Variables | ✅ |
-| 2 | Control Flow | ⏳ |
-| 3 | Functions | ⏳ |
+| 2 | Control Flow | ✅ |
+| 3 | Functions | ✅ |
 | 4 | Collections | ⏳ |
 | 5 | File Handling | ⏳ |
