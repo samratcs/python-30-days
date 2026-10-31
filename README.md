@@ -31,8 +31,8 @@ Day05 - File Handling
 | 1 | Variables | ✅ |
 | 2 | Control Flow | ✅ |
 | 3 | Functions | ✅ |
-| 4 | Collections | ⏳ |
-| 5 | File Handling | ⏳ |
+| 4 | Collections | ✅ |
+| 5 | File Handling | ✅ |
 | 6 | Exception Handling | ⏳ |
 | 7 | Modules | ⏳ |
 | 8 | Object-Oriented Programming | ⏳ |
